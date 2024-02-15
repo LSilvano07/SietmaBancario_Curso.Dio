@@ -57,6 +57,7 @@ def criar_usuario(usuarios, contas, AGENCIA):
     cadastro_user['Data de Nascimento'] = input('Informe a data de nascimento (dd-mm-aaaa): ')
     cadastro_user['Endereço'] = input('Informe seu endereço (logradouro, número - bairro - cidade/estado): ')
     usuarios.append(cadastro_user)
+    print('========== Conta Criada com Sucesso! ==========')
     
     
     return usuarios, contas, AGENCIA
